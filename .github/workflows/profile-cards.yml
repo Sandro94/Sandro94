@@ -1,0 +1,52 @@
+name: Atualizar cartões do perfil
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 11 * * *'
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - banner.png
+      - scripts/**
+      - package.json
+      - .github/workflows/profile-cards.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-cards-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+      - name: Gerar cartões com dados públicos
+        run: npm run stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Validar arquivos do perfil
+        run: npm run check
+      - name: Salvar somente os cartões gerados
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- assets/github-stats.svg assets/languages.svg assets/contributions.svg
+          if git diff --cached --quiet; then
+            echo "Cartões já atualizados."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: atualiza cartões públicos do perfil'
+          git push origin HEAD:main

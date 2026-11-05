@@ -1,0 +1,10 @@
+{
+  "name": "sandro94-profile",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "stats": "node scripts/update-stats.mjs",
+    "check": "node scripts/validate-profile.mjs"
+  }
+}
