@@ -56,11 +56,6 @@ Stack verificada na plataforma Milagres Transparente: frontend estático em HTML
   <a href="https://github.com/Sandro94?tab=repositories"><img src="./assets/github-stats.svg" width="100%" alt="Estatísticas públicas de Sandro94: repositórios, seguidores e estrelas." /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Sandro94?tab=repositories"><img src="./assets/languages.svg" width="100%" alt="Linguagens mais utilizadas nos repositórios públicos, quando houver dados disponíveis." /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/Sandro94?tab=overview"><img src="./assets/contributions.svg" width="100%" alt="Calendário de contribuições visível no perfil público de Sandro94." /></a>
-</p>
 
 <sub>Atualização diária pelo GitHub Actions. O cálculo de linguagens considera repositórios públicos, sem forks e sem incluir este perfil. Projetos privados não entram nesse ranking; a stack verificada está apresentada acima.</sub>
 
