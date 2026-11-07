@@ -171,6 +171,7 @@ foreach($iterator as $file){
  if($count)$pages[$path]=['old'=>$html,'new'=>$updated];
 }
 if(count($pages)<5)throw new RuntimeException('Too few HTML references; no files changed');
+if(in_array('--dry-run',$argv,true)){echo 'DRY_RUN: '.json_encode(['pageCount'=>count($pages),'bundleMap'=>$map],JSON_UNESCAPED_SLASHES)."\n";exit(0);}
 $backup=$stage.'/backup';
 if(!is_dir($backup)&&!mkdir($backup,0700,true))throw new RuntimeException('Cannot prepare backup directory');
 foreach($pages as $file=>$pair){
