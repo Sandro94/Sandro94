@@ -8,17 +8,32 @@
 
 # Olá, eu sou o Sandro 👋
 
-Empreendedor à frente da **Milagres Transparente**, conectando turismo, tecnologia e experiências digitais em Alagoas.
+Sou empreendedor à frente da **Milagres Transparente**. Desenvolvo soluções digitais para facilitar a descoberta de passeios em Alagoas e aproximar viajantes do atendimento.
 
-Transformo necessidades da operação turística em soluções digitais: da apresentação dos passeios à organização do atendimento e à automação de rotinas. Meu foco é construir uma jornada clara, rápida e acolhedora para quem viaja e para quem atende.
+Trabalho com desenvolvimento web, integrações e automação para tornar a operação turística mais organizada e a experiência de quem viaja mais simples.
 
-- **Empreendedorismo e turismo:** experiências pela Rota Ecológica dos Milagres, Maragogi e Maceió.
-- **Tecnologia aplicada:** plataformas web, integrações e automação de processos.
-- **Experiência digital:** mobile, acessibilidade, performance e privacidade.
+## Projeto em destaque · Milagres Transparente
 
-## Tecnologias e ferramentas
+**Do primeiro contato com o destino à conversa com a equipe.**
 
-Stack verificada na plataforma Milagres Transparente: frontend estático em HTML, CSS e JavaScript, build em módulos ESM com Node.js, integrações pontuais em PHP e testes com Playwright.
+Na plataforma, conecto a apresentação dos passeios à organização das preferências do viajante e ao atendimento pelo WhatsApp.
+
+- **Descoberta de passeios:** informações e vídeos dos destinos em São Miguel dos Milagres, Maragogi, Praia do Patacho e Maceió.
+- **Planejamento pelo celular:** seleção de múltiplos passeios e solicitação guiada para reunir os interesses do viajante.
+- **Atendimento com contexto:** envio das preferências para o WhatsApp, facilitando a conversa com a equipe.
+- **Cuidado com a experiência:** foco em acessibilidade, desempenho, SEO técnico e privacidade.
+
+**[Conheça a plataforma →](https://www.milagrestransparente.com/)**
+
+## O que faço
+
+- Transformo necessidades da operação turística em funcionalidades para a web.
+- Integro ferramentas e automatizo rotinas de atendimento.
+- Aproximo a experiência no destino da experiência digital.
+
+## Tecnologias que utilizo no projeto
+
+Utilizo **HTML, CSS e JavaScript** no site, **Node.js** no processo de build, **PHP** em integrações pontuais e **Playwright** nos testes.
 
 **Web e integrações**
 
@@ -39,25 +54,18 @@ Stack verificada na plataforma Milagres Transparente: frontend estático em HTML
   <img src="https://img.shields.io/badge/Hostinger-673DE6?style=for-the-badge&amp;logo=hostinger&amp;logoColor=white" alt="Hostinger" />
 </p>
 
-## Projeto em destaque · Milagres Transparente
-
-**Uma plataforma digital para descobrir Alagoas e planejar experiências com atendimento humano.**
-
-- Passeios e destinos em São Miguel dos Milagres, Maragogi, Praia do Patacho e Maceió.
-- Experiência mobile com seleção de múltiplos passeios e solicitação guiada em três etapas.
-- Integração com WhatsApp para encaminhar as preferências e conversar com a equipe.
-- Vídeos locais Full HD, SEO técnico e controles de privacidade integrados à navegação.
-
-**[Conheça a plataforma →](https://www.milagrestransparente.com/)**
-
-## Atividade no GitHub
+<details>
+<summary>Atividade pública no GitHub</summary>
 
 <p align="center">
   <a href="https://github.com/Sandro94?tab=repositories"><img src="./assets/github-stats.svg" width="100%" alt="Estatísticas públicas de Sandro94: repositórios, seguidores e estrelas." /></a>
 </p>
-<p align="center">
 
-<sub>Atualização diária pelo GitHub Actions. O cálculo de linguagens considera repositórios públicos, sem forks e sem incluir este perfil. Projetos privados não entram nesse ranking; a stack verificada está apresentada acima.</sub>
+<p align="center">
+  <sub>Dados dos repositórios públicos. Projetos privados não estão representados.</sub>
+</p>
+
+</details>
 
 ---
 
